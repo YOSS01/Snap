@@ -2,10 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-::-webkit-scrollbar{
-  width: 8px;
-}
-
-::-webkit-scrollbar-thumb{
-  background-color: red;
+@layer base{
+  @font-face {
+    font-family: "Epilogue";
+    src: url("./Fonts/Epilogue/Epilogue-VariableFont_wght.ttf");
+  }
 }
