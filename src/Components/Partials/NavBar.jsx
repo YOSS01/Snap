@@ -53,10 +53,10 @@ function NavBar() {
                     {
                         features && (
                             <ul className='w-[20vh] h-[25vh] absolute top-5 right-0 bg-white px-5 rounded-xl shadow-2xl shadow-black/50 flex flex-col justify-center items-start gap-5'>
-                                <li className='flex items-start gap-2'><img src={iconTodo} alt="" /><Link to="/">Todo List</Link></li>
-                                <li className='flex items-start gap-2'><img src={iconCalendar} alt="" /><Link to="/">Calendar</Link></li>
-                                <li className='flex items-start gap-2'><img src={iconReminders} alt="" /><Link to="/">Reminders</Link></li>
-                                <li className='flex items-start gap-2'><img src={iconPlanning} alt="" /><Link to="/">Planning</Link></li>
+                                <li className='flex items-start gap-2'><img src={iconTodo} alt="" /><Link to="/Snap">Todo List</Link></li>
+                                <li className='flex items-start gap-2'><img src={iconCalendar} alt="" /><Link to="/Snap">Calendar</Link></li>
+                                <li className='flex items-start gap-2'><img src={iconReminders} alt="" /><Link to="/Snap">Reminders</Link></li>
+                                <li className='flex items-start gap-2'><img src={iconPlanning} alt="" /><Link to="/Snap">Planning</Link></li>
                             </ul>
                         )
                     }
@@ -67,9 +67,9 @@ function NavBar() {
                     {
                         company && (
                             <ul className='w-[15vh] h-[20vh] absolute top-5 right-0 bg-white rounded-xl shadow-2xl shadow-black/50 px-5 flex flex-col justify-center items-start gap-5'>
-                                <li><Link to="/">History</Link></li>
-                                <li><Link to="/">Our Team</Link></li>
-                                <li><Link to="/">Blog</Link></li>
+                                <li><Link to="/Snap">History</Link></li>
+                                <li><Link to="/Snap">Our Team</Link></li>
+                                <li><Link to="/Snap">Blog</Link></li>
                             </ul>
                         )
                     }
@@ -99,10 +99,10 @@ function NavBar() {
                                     {
                                         features && (
                                             <ul className='px-5 flex flex-col justify-center items-start gap-5'>
-                                                <li className='flex items-start gap-2'><img src={iconTodo} alt="" /><Link to="/">Todo List</Link></li>
-                                                <li className='flex items-start gap-2'><img src={iconCalendar} alt="" /><Link to="/">Calendar</Link></li>
-                                                <li className='flex items-start gap-2'><img src={iconReminders} alt="" /><Link to="/">Reminders</Link></li>
-                                                <li className='flex items-start gap-2'><img src={iconPlanning} alt="" /><Link to="/">Planning</Link></li>
+                                                <li className='flex items-start gap-2'><img src={iconTodo} alt="" /><Link to="/Snap">Todo List</Link></li>
+                                                <li className='flex items-start gap-2'><img src={iconCalendar} alt="" /><Link to="/Snap">Calendar</Link></li>
+                                                <li className='flex items-start gap-2'><img src={iconReminders} alt="" /><Link to="/Snap">Reminders</Link></li>
+                                                <li className='flex items-start gap-2'><img src={iconPlanning} alt="" /><Link to="/Snap">Planning</Link></li>
                                             </ul>
                                         )
                                     }
@@ -112,9 +112,9 @@ function NavBar() {
                                     {
                                         company && (
                                             <ul className='px-5 flex flex-col justify-center items-start gap-5'>
-                                                <li><Link to="/">History</Link></li>
-                                                <li><Link to="/">Our Team</Link></li>
-                                                <li><Link to="/">Blog</Link></li>
+                                                <li><Link to="/Snap">History</Link></li>
+                                                <li><Link to="/Snap">Our Team</Link></li>
+                                                <li><Link to="/Snap">Blog</Link></li>
                                             </ul>
                                         )
                                     }

@@ -11,7 +11,7 @@ function App() {
     <BrowserRouter className="App w-full h-[100vh]" style={{backgroundColor: 'hsl(0, 0%, 98%)'}}>
       <NavBar />
       <Routes>
-        <Route path='/' element={<Home />} />
+        <Route path='/Snap' element={<Home />} />
       </Routes>
       
     </BrowserRouter>
