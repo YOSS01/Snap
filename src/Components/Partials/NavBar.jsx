@@ -119,12 +119,12 @@ function NavBar() {
                                         )
                                     }
                                 </li>
-                                <li onMouseOver={changeColor} onMouseOut={resetColor}><Link to='/'>Careers</Link></li>
-                                <li onMouseOver={changeColor} onMouseOut={resetColor}><Link to='/'>About</Link></li>
+                                <li onMouseOver={changeColor} onMouseOut={resetColor}><Link to='/Snap'>Careers</Link></li>
+                                <li onMouseOver={changeColor} onMouseOut={resetColor}><Link to='/Snap'>About</Link></li>
                             </ul>
                             <ul className="w-full flex flex-col justify-center items-center gap-5">
-                                <li onMouseOver={changeColor} onMouseOut={resetColor}><Link to='/'>Login</Link></li>
-                                <li className='w-full flex justify-center items-center'><Link onMouseOver={changeColor} onMouseOut={resetColor} className='w-full flex justify-center items-center border-solid border-2 rounded-xl px-5 py-2 hover:border-gray-500' to='#'>Register</Link></li>
+                                <li onMouseOver={changeColor} onMouseOut={resetColor}><Link to='/Snap'>Login</Link></li>
+                                <li className='w-full flex justify-center items-center'><Link onMouseOver={changeColor} onMouseOut={resetColor} className='w-full flex justify-center items-center border-solid border-2 rounded-xl px-5 py-2 hover:border-gray-500' to='/Snap'>Register</Link></li>
                             </ul>
                         </div>
                     </div>
